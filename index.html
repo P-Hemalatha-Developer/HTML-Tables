@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLES</title>
+  </head>
+  <body>
+    <h1><strong>HTML TABLES</strong></h1>
+    <table border="2" cellpadding="10" cellspacing="5">
+      <tr>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Year</th>
+      </tr>
+
+      <tr>
+        <td>James</td>
+        <td>Java</td>
+        <td>1991</td>
+      </tr>
+      <tr>
+        <td>Gudio</td>
+        <td>Python</td>
+        <td>1972</td>
+      </tr>
+
+      <tr>
+        <td>Dennis</td>
+        <td>C</td>
+        <td>1972</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<br />
+
+<!-- Table-2 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="2">
+      <tr>
+        <th>Name</th>
+        <th colspan="3">Skills</th>
+      </tr>
+
+      <tr>
+        <td>James</td>
+        <td>C</td>
+        <td>Java</td>
+        <td>HTML</td>
+      </tr>
+
+      <tr>
+        <td>Gudio</td>
+        <td>C++</td>
+        <td>Python</td>
+        <td>PHP</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<br />
+
+<!-- Table-3 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1" cellpadding="5" cellspacing="3">
+      <tr>
+        <th>Name</th>
+        <th>Companies</th>
+      </tr>
+
+      <tr>
+        <td rowspan="3">James</td>
+        <td>Sun Microsystems</td>
+      </tr>
+      <tr>
+        <td>Oracle</td>
+      </tr>
+      <tr>
+        <td>Liquid Robotics</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Guido</td>
+        <td>Google</td>
+      </tr>
+      <tr>
+        <td>Dropbox</td>
+      </tr>
+      <tr>
+        <td>Microsoft</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<br />
+
+<!-- Table-4 Time Table -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>MY CLASS TIME-TABLE</h1>
+    <table border="2" cellpadding="10" cellspacing="5">
+      <thead>
+        <caption>
+          <strong>JAVA FULL STACK DEVELOPMENT-TAP ACADEMY</strong>
+        </caption>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Day</th>
+          <th>9-10 AM</th>
+          <th>10-11 AM</th>
+          <th>11-12 PM</th>
+          <th>1-2 PM</th>
+          <th>2-4 PM</th>
+        </tr>
+
+        <tr>
+          <th>Monday</th>
+          <td>MySQL</td>
+          <td>Java</td>
+          <td>SoftSkills</td>
+          <td rowspan="5">LunchBreak</td>
+          <td>Mock</td>
+        </tr>
+
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="2">Project Class</td>
+          <td>Programming</td>
+          <td>CSS</td>
+        </tr>
+
+        <tr>
+          <th>Wednesday</th>
+          <td>HTML</td>
+          <td>Python</td>
+          <td>DSA</td>
+          <td rowspan="2">Front End Project</td>
+        </tr>
+
+        <tr>
+          <th>Thursday</th>
+          <td>Java</td>
+          <td colspan="2">React Js</td>
+        </tr>
+
+        <tr>
+          <th>Friday</th>
+          <td>Programming</td>
+          <td>Java</td>
+          <td>DSA</td>
+          <td>JavaScript</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="6">Note: Friday 2-4 PM is optional activity slot.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
